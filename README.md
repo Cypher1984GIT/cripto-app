@@ -54,11 +54,27 @@ Cripto App is a real-time cryptocurrency tracker built with Next.js that allows 
 4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the application
 
 ## Project Structure
+
+```
 cripto-app/
-├── app/ # Next.js App Router directory
-│ ├── page.tsx # Main cryptocurrency listing page
-│ ├── layout.tsx # Root layout with Providers
-│ └── globals.css # Global styles
-├── public/ # Static assets
-├── next.config.ts # Next.js configuration
-└── package.json # Project dependencies and scripts
+├── app/                # Next.js App Router directory
+│   ├── page.tsx        # Main cryptocurrency listing page
+│   ├── layout.tsx      # Root layout with Providers
+│   └── globals.css     # Global styles
+├── public/             # Static assets
+├── next.config.ts      # Next.js configuration
+└── package.json        # Project dependencies and scripts
+```
+
+## Deployment
+
+This application is configured for easy deployment on [Vercel](https://vercel.com/).
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- [CoinGecko](https://www.coingecko.com/) for providing the cryptocurrency API
+- [Next.js](https://nextjs.org/) for the amazing React framework
